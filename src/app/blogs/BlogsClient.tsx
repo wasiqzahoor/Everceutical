@@ -282,7 +282,7 @@ function FeaturedCard({ post, visible }: { post: BlogPost; visible: boolean }) {
     >
       <Link href={`/blogs/${post.slug}`} className="flex flex-col lg:flex-row">
         {/* Image side */}
-        <div className="relative lg:w-[55%] h-60 md:h-72 lg:h-auto lg:min-h-[420px] overflow-hidden">
+        <div className="relative lg:w-[55%] h-60 md:h-72 lg:h-full lg:min-h-[420px] overflow-hidden">
           {post.image ? (
             <img
               src={post.image}
