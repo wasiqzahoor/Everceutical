@@ -85,7 +85,7 @@ export default function Footer() {
           transition: "opacity 0.7s ease, transform 0.7s ease",
         }}
       >
-        <div className="max-w-7xl mx-auto px-5 sm:px-6 py-10 md:py-12">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 py-10 md:py-12 md:mt-5">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div>
               <h3 className="text-lg md:text-xl font-bold text-[#0f172a] mb-1">
