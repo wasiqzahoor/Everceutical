@@ -122,7 +122,7 @@ export default function Footer() {
               transition: "opacity 0.6s ease 0.1s, transform 0.6s ease 0.1s",
             }}
           >
-            <div className="mb-4 w-28 sm:w-32 md:w-36 h-7 sm:h-8 md:h-9 overflow-hidden flex items-center">
+            <div className="mb-4 mt-4 w-28 sm:w-32 md:w-36 h-7 sm:h-8 md:h-9 overflow-hidden flex items-center">
               <img
                 src="/images/navbar-logo.png?v=13"
                 alt="EverCeutical"
