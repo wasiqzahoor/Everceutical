@@ -7,6 +7,28 @@ import Footer from "@/components/Footer"
 
 import { blogPosts, type BlogPost } from "@/data/scrapedData"
 
+/**
+ * FIXED useInView hook
+ * -----------------------------------------------------------------------
+ * Purpose of the fix:
+ * Previously, every section started at opacity: 0 and only became visible
+ * once the IntersectionObserver fired OR a fallback timer (1500ms mobile /
+ * 4000ms desktop) elapsed. On slower production hydration (Vercel), the
+ * observer could take longer to fire than on localhost, so above-the-fold
+ * sections (e.g. the "Categories" grid right after the Featured card)
+ * could sit invisible for a few seconds -> visually shows up as an empty/
+ * blank block, exactly what you saw on the deployed site.
+ *
+ * The fix does two things:
+ * 1. On mount, we synchronously check getBoundingClientRect() to see if
+ *    the element is ALREADY inside (or near) the viewport. If so, we mark
+ *    it visible immediately -> no blank flash for above-the-fold content,
+ *    regardless of how long hydration/observer setup takes.
+ * 2. The safety-net timeout is drastically reduced (from 1500/4000ms to
+ *    600/900ms) since it's now only a backstop for edge cases, not the
+ *    primary way most sections become visible.
+ * -----------------------------------------------------------------------
+ */
 function useInView(threshold = 0.15, rootMargin?: string) {
   const ref = useRef<HTMLDivElement>(null)
   const [visible, setVisible] = useState(false)
@@ -14,16 +36,40 @@ function useInView(threshold = 0.15, rootMargin?: string) {
   useEffect(() => {
     const el = ref.current
     if (!el) return
+
     const isMobile = window.innerWidth < 768
+
+    // 1) Immediately check if the element is already in (or close to) the
+    //    viewport on mount. This covers above-the-fold sections so they
+    //    never wait on the observer or the fallback timer.
+    const rect = el.getBoundingClientRect()
+    const alreadyInView =
+      rect.top < window.innerHeight * 1.15 && rect.bottom > -100
+    if (alreadyInView) {
+      setVisible(true)
+      return
+    }
+
+    // 2) For anything below the fold, use the observer as before.
     const obs = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) setVisible(true)
       },
-      { threshold: isMobile ? 0.01 : threshold, rootMargin: rootMargin ?? (isMobile ? "200px 0px 0px 0px" : "0px 0px -30px 0px") }
+      {
+        threshold: isMobile ? 0.01 : threshold,
+        rootMargin: rootMargin ?? (isMobile ? "200px 0px 0px 0px" : "0px 0px -30px 0px"),
+      }
     )
     obs.observe(el)
-    const timer = isMobile ? setTimeout(() => setVisible(true), 1500) : setTimeout(() => setVisible(true), 4000)
-    return () => { obs.disconnect(); clearTimeout(timer) }
+
+    // 3) Much shorter safety-net timer, just in case the observer never
+    //    fires (e.g. very fast scroll, tab backgrounded, etc.)
+    const timer = setTimeout(() => setVisible(true), isMobile ? 600 : 900)
+
+    return () => {
+      obs.disconnect()
+      clearTimeout(timer)
+    }
   }, [threshold, rootMargin])
 
   return { ref, visible }
@@ -379,7 +425,7 @@ export default function BlogsClient() {
       <Navbar />
       <main className="min-h-screen bg-transparent">
 
-        {/* â•â•â•â•â•â•â•â•â•â•â• HERO â•â•â•â•â•â•â•â•â•â•â• */}
+        {/* ═══════════ HERO ═══════════ */}
         <section className="relative pt-28 pb-14 md:pt-36 md:pb-20 overflow-hidden">
           {/* Background decorative elements */}
           <div className="absolute inset-0 pointer-events-none">
@@ -418,7 +464,7 @@ export default function BlogsClient() {
           </div>
         </section>
 
-        {/* â•â•â•â•â•â•â•â•â•â•â• WHY READ OUR BLOG â•â•â•â•â•â•â•â•â•â•â• */}
+        {/* ═══════════ WHY READ OUR BLOG ═══════════ */}
         <section className="relative py-8 md:py-10">
           <div className="max-w-5xl mx-auto px-6">
             <div ref={whyRead.ref}>
@@ -473,7 +519,7 @@ export default function BlogsClient() {
           </div>
         </section>
 
-        {/* â•â•â•â•â•â•â•â•â•â•â• FEATURED POST â•â•â•â•â•â•â•â•â•â•â• */}
+        {/* ═══════════ FEATURED POST ═══════════ */}
         <section className="relative py-5 md:py-8">
           <div className="max-w-6xl mx-auto px-6">
             <div ref={featured.ref}>
@@ -482,7 +528,7 @@ export default function BlogsClient() {
           </div>
         </section>
 
-        {/* â•â•â•â•â•â•â•â•â•â•â• CATEGORIES OVERVIEW â•â•â•â•â•â•â•â•â•â•â• */}
+        {/* ═══════════ CATEGORIES OVERVIEW ═══════════ */}
         <section className="relative py-8 md:py-10">
           <div className="max-w-6xl mx-auto px-6">
             <div ref={categoriesSection.ref}>
@@ -568,7 +614,7 @@ export default function BlogsClient() {
           </div>
         </section>
 
-        {/* â•â•â•â•â•â•â•â•â•â•â• BLOG GRID â•â•â•â•â•â•â•â•â•â•â• */}
+        {/* ═══════════ BLOG GRID ═══════════ */}
         <section id="articles" className="relative py-10 md:py-16">
           <div className="max-w-6xl mx-auto px-6">
 
@@ -621,7 +667,7 @@ export default function BlogsClient() {
           </div>
         </section>
 
-        {/* â•â•â•â•â•â•â•â•â•â•â• NEWSLETTER â•â•â•â•â•â•â•â•â•â•â• */}
+        {/* ═══════════ NEWSLETTER ═══════════ */}
         <section className="relative py-10 md:py-14">
           <div className="max-w-3xl mx-auto px-6">
             <div ref={newsletter.ref}
@@ -669,7 +715,7 @@ export default function BlogsClient() {
           </div>
         </section>
 
-        {/* â•â•â•â•â•â•â•â•â•â•â• STATS BAR â•â•â•â•â•â•â•â•â•â•â• */}
+        {/* ═══════════ STATS BAR ═══════════ */}
         <section className="relative py-8 md:py-10">
           <div className="max-w-5xl mx-auto px-6">
             <div ref={stats.ref}
@@ -715,7 +761,7 @@ export default function BlogsClient() {
           </div>
         </section>
 
-        {/* â•â•â•â•â•â•â•â•â•â•â• BOTTOM CTA â•â•â•â•â•â•â•â•â•â•â• */}
+        {/* ═══════════ BOTTOM CTA ═══════════ */}
         <section className="relative py-10 md:py-16">
           <div className="max-w-4xl mx-auto px-6 text-center">
             <div ref={cta.ref} style={{ opacity: cta.visible ? 1 : 0, transform: `translateY(${cta.visible ? 0 : 60}px) scale(${cta.visible ? 1 : 0.9})`, transition: "opacity 1.5s cubic-bezier(0.22,1,0.36,1), transform 1.5s cubic-bezier(0.22,1,0.36,1)" }}>
@@ -767,4 +813,3 @@ export default function BlogsClient() {
     </>
   )
 }
-
