@@ -1,0 +1,16 @@
+{
+  "name": "EverCeutical",
+  "short_name": "EverCeutical",
+  "description": "Advanced Exosome Biotechnology & Regenerative Aesthetics",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a1628",
+  "theme_color": "#0a1628",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}

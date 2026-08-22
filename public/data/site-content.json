@@ -1,0 +1,221 @@
+{
+  "navLinks": [
+    { "label": "Home", "href": "/" },
+    { "label": "Products", "href": "/products" },
+    { "label": "Research & Technology", "href": "/research-technology" },
+    { "label": "Inspection Report", "href": "/inspection-report" },
+    { "label": "Blogs", "href": "/blogs" },
+    { "label": "About Us", "href": "/about-us" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "productCategories": [
+    { "name": "All", "value": "all" },
+    { "name": "EXOGENESIS", "value": "EXOGENESIS" },
+    { "name": "WHARTEXA", "value": "WHARTEXA" },
+    { "name": "HYALIQUE-X", "value": "HYALIQUE-X" }
+  ],
+  "benefits": [
+    { "title": "Cell Renewal", "desc": "Stimulates natural cell regeneration and repair" },
+    { "title": "Hair Growth", "desc": "Activates dormant follicles and improves density" },
+    { "title": "Skin Repair", "desc": "Repairs damaged skin at cellular level" },
+    { "title": "Anti-Aging", "desc": "Reduces fine lines and wrinkles" },
+    { "title": "Skin Brightening", "desc": "Improves tone, clarity, and natural radiance" },
+    { "title": "Collagen Boost", "desc": "Enhances collagen and elastin production" },
+    { "title": "Tissue Repair", "desc": "Accelerates recovery of damaged tissues" },
+    { "title": "Scalp Health", "desc": "Improves scalp environment for growth" }
+  ],
+  "benefitDetails": [
+    {
+      "title": "Cell Renewal",
+      "shortDesc": "Stimulates natural cell regeneration and repair",
+      "fullDesc": "Exosomes deliver bioactive signaling molecules that activate dormant cellular repair pathways, promoting the replacement of damaged cells with healthy, functioning tissue through natural regenerative processes.",
+      "image": "/images/benefits/cell-renewal.png",
+      "category": "regenerative",
+      "color": "#5b9bd5"
+    },
+    {
+      "title": "Tissue Repair",
+      "shortDesc": "Accelerates recovery of damaged tissues",
+      "fullDesc": "By delivering concentrated growth factors directly to injury sites, exosomes orchestrate a coordinated healing response \u2014 reducing recovery time and improving the quality of repaired tissue at the structural level.",
+      "image": "/images/benefits/tissue-repair.jpg",
+      "category": "regenerative",
+      "color": "#4a8ba8"
+    },
+    {
+      "title": "Skin Repair",
+      "shortDesc": "Repairs damaged skin at cellular level",
+      "fullDesc": "Exosomes penetrate the dermal layers to deliver restorative signals that repair micro-damage, strengthen the skin barrier, and restore structural integrity \u2014 addressing damage before it becomes visible.",
+      "image": "/images/benefits/skin-repair.jpg",
+      "category": "regenerative",
+      "color": "#7ab8a0"
+    },
+    {
+      "title": "Collagen Support",
+      "shortDesc": "Enhances collagen and elastin production",
+      "fullDesc": "Stimulates fibroblast activity to boost endogenous collagen and elastin synthesis, restoring skin elasticity, firmness, and structural support that diminishes with age and environmental exposure.",
+      "image": "/images/benefits/collagen-support.jpg",
+      "category": "regenerative",
+      "color": "#a088c4"
+    },
+    {
+      "title": "Hair Growth",
+      "shortDesc": "Activates dormant follicles and improves density",
+      "fullDesc": "Exosomes reactivate miniaturized hair follicles by delivering Wnt signaling molecules and growth factors that extend the anagen phase, increase hair shaft thickness, and improve overall follicle density.",
+      "image": "/images/benefits/hair-growth.jpg",
+      "category": "aesthetic",
+      "color": "#d4915e"
+    },
+    {
+      "title": "Skin Brightening",
+      "shortDesc": "Improves tone, clarity, and natural radiance",
+      "fullDesc": "By regulating melanocyte activity and promoting even cellular turnover, exosomes help reduce hyperpigmentation, restore luminosity, and create a naturally brighter, more uniform complexion.",
+      "image": "/images/benefits/skin-brightening.jpg",
+      "category": "aesthetic",
+      "color": "#e8b84a"
+    },
+    {
+      "title": "Anti-Aging",
+      "shortDesc": "Reduces fine lines and wrinkles",
+      "fullDesc": "Exosomes combat visible aging by stimulating collagen production, improving skin hydration, reducing oxidative stress, and promoting the regeneration of youthful skin architecture at the cellular level.",
+      "image": "/images/benefits/anti-aging.jpg",
+      "category": "aesthetic",
+      "color": "#c9706b"
+    },
+    {
+      "title": "Scalp Health",
+      "shortDesc": "Improves scalp environment for growth",
+      "fullDesc": "Creates an optimal microenvironment for hair growth by reducing scalp inflammation, balancing sebum production, improving microcirculation, and restoring the dermal microenvironment essential for follicle vitality.",
+      "image": "/images/benefits/scalp-health.jpg",
+      "category": "aesthetic",
+      "color": "#6aab8e"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What Is an Exosome Treatment?",
+      "a": "Exosome treatments utilize extracellular vesicles rich in growth factors, proteins, peptides, and signaling molecules to support cellular communication, tissue repair, and regenerative processes at the deepest cellular level."
+    },
+    {
+      "q": "How Do Exosomes Work?",
+      "a": "Exosomes act as biological messengers, delivering molecular signals between cells to support regeneration, recovery, and cellular function. They carry bioactive cargo including growth factors, microRNA, and cytokines."
+    },
+    {
+      "q": "How Are Billions Counted in Exosomes?",
+      "a": "The term \"billions\" refers to the concentration of exosome particles present in a formulation, indicating the number of biologically active vesicles available within a treatment volume."
+    },
+    {
+      "q": "Are Exosomes Safe?",
+      "a": "High-quality exosome products are developed under strict laboratory and quality-control standards to ensure consistency, safety, and reliability. Every batch undergoes rigorous testing."
+    },
+    {
+      "q": "Exosome Therapy vs PRP: What Is the Difference?",
+      "a": "Unlike PRP, exosomes provide highly concentrated signaling molecules without relying on donor variability, supporting more standardized regenerative outcomes."
+    }
+  ],
+  "exosomeTechnology": {
+    "hero": {
+      "label": "Advanced Exosome Platform",
+      "title": "Next-Generation Regenerative Technology",
+      "subtitle": "Advanced Exosome Platform",
+      "description": "Our exosome platform harnesses the natural communicative power of extracellular vesicles to deliver precision regenerative signals at the cellular level. Engineered for consistency, safety, and therapeutic efficacy."
+    },
+    "features": [
+      {
+        "image": "/images/icons/cellular-communication.png",
+        "title": "Cellular Communication",
+        "desc": "Exosomes facilitate biological signaling between cells, carrying growth factors, cytokines, and microRNA payloads that instruct damaged tissue to initiate repair and regeneration pathways."
+      },
+      {
+        "image": "/images/icons/Laboratory- Engineered.png",
+        "title": "Laboratory Engineered",
+        "desc": "Produced under strictly controlled Good Manufacturing Practice (GMP) protocols using proprietary isolation and purification technologies to ensure maximum bioactivity and batch-to-batch consistency."
+      },
+      {
+        "image": "/images/icons/quality assurance.png",
+        "title": "Quality Assurance",
+        "desc": "Every batch undergoes rigorous analytical testing including nanoparticle tracking analysis, protein quantification, sterility validation, and endotoxin screening to meet clinical-grade standards."
+      },
+      {
+        "image": "/images/icons/Regenerative Potential.png",
+        "title": "Regenerative Potential",
+        "desc": "Designed to support tissue repair, reduce inflammation, and enhance cellular recovery across dermatological, aesthetic, and therapeutic applications through targeted delivery of bioactive cargo."
+      },
+      {
+        "image": "/images/icons/cell soucre.png",
+        "title": "Cell Sources",
+        "desc": "Derived from human umbilical cord mesenchymal stem cells (hUC-MSCs), adipose tissue, fibroblasts, and lab-engineered cell lines \u2014 each optimized for specific therapeutic profiles."
+      },
+      {
+        "image": "/images/icons/Research-Driven.png",
+        "title": "Research-Driven",
+        "desc": "Backed by peer-reviewed clinical research and continuously validated through ongoing studies to ensure our exosome formulations meet the highest standards of evidence-based regenerative medicine."
+      }
+    ],
+    "stats": [
+      { "value": "10\u2013150nm", "label": "Nanoscale Vesicles" },
+      { "value": "100+", "label": "Bioactive Molecules" },
+      { "value": "10B\u201360B+", "label": "Particles Per Vial" },
+      { "value": "99.9%", "label": "Purity Standard" }
+    ]
+  },
+  "inspectionReport": {
+    "hero": {
+      "label": "Quality Assurance",
+      "title": "Inspection Report",
+      "subtitle": "Independent Third-Party Verification",
+      "description": "Our exosome formulations undergo rigorous independent testing by KTR (Korea Testing & Research Institute) \u2014 one of South Korea's most respected certification bodies. Every batch is validated for safety, purity, and compliance with international standards."
+    },
+    "certificates": [
+      {
+        "title": "KTR Safety Inspection Report",
+        "description": "Comprehensive safety analysis confirming no detection of harmful substances \u2014 heavy metals, bacterial endotoxins, and microbial contamination all returned 'Not Detected' (\u672a\u68c0\u51fa) results.",
+        "image": "https://cdn.shopify.com/s/files/1/0956/4926/8006/files/1_52c68b92-68e1-44f4-824b-a86f792aeda9.png?v=1750762518",
+        "badge": "PASSED",
+        "issuer": "Korea Testing & Research Institute (KTR)"
+      },
+      {
+        "title": "KTR Quality Certification",
+        "description": "Official quality certification validating product composition, stability, and compliance with Korean and international cosmetic safety regulations.",
+        "image": "https://cdn.shopify.com/s/files/1/0956/4926/8006/files/2_4d6b00fb-0f18-4ece-a48d-9bf0a6490c57.png?v=1750279317",
+        "badge": "CERTIFIED",
+        "issuer": "Korea Testing & Research Institute (KTR)"
+      }
+    ],
+    "highlights": [
+      {
+        "icon": "\ud83d\udec1",
+        "image": "/images/inspection/heavy-metals.png",
+        "title": "Heavy Metals",
+        "result": "Not Detected",
+        "desc": "Lead, mercury, arsenic, and cadmium \u2014 all below detectable limits."
+      },
+      {
+        "icon": "\ud83e\uddea",
+        "image": "/images/inspection/microbial-contamination.png",
+        "title": "Microbial Contamination",
+        "result": "Not Detected",
+        "desc": "Total plate count, yeast, and mold \u2014 all within sterile thresholds."
+      },
+      {
+        "icon": "\u26a1",
+        "image": "/images/inspection/endotoxin-levels.png",
+        "title": "Endotoxin Levels",
+        "result": "Not Detected",
+        "desc": "Bacterial endotoxins validated below detection sensitivity."
+      },
+      {
+        "icon": "\u2705",
+        "image": "/images/inspection/overall-status.png",
+        "title": "Overall Status",
+        "result": "PASSED",
+        "desc": "All tested parameters meet or exceed international safety standards."
+      }
+    ],
+    "trustStats": [
+      { "value": "100%", "label": "Detection-Free" },
+      { "value": "KTR", "label": "Certified Lab" },
+      { "value": "0", "label": "Safety Violations" },
+      { "value": "GMP", "label": "Compliant" }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+node_modules
+.next
+.git
+out
+_hf_deploy
+_not-found
+*.zip
+.vercel
+.env*
+*.tsbuildinfo
+src/three.zip

@@ -1,0 +1,445 @@
+{
+  "exogenesis-scalp-10b": {
+    "pageType": "exogenesis-scalp"
+  },
+  "exogenesis-scalp-15b": {
+    "pageType": "exogenesis-scalp"
+  },
+  "exogenesis-vital-kit-10b": {
+    "pageType": "exogenesis-vital"
+  },
+  "exogenesis-vital-kit-15b": {
+    "pageType": "exogenesis-vital"
+  },
+  "whartexa-20b": {
+    "pageType": "whartexa",
+    "specifications": [
+      [
+        "Product Name",
+        "Whartexa™ 20B"
+      ],
+      [
+        "Product Type",
+        "HUC-MSC-Derived Extracellular Vesicle / Exosome Preparation"
+      ],
+      [
+        "Biological Source",
+        "Human Umbilical Cord"
+      ],
+      [
+        "Cell Source",
+        "Human Umbilical Cord Mesenchymal Stem Cells (HUC-MSCs)"
+      ],
+      [
+        "Tissue Source",
+        "Wharton’s Jelly"
+      ],
+      [
+        "Particle Concentration",
+        "20 Billion Particles"
+      ],
+      [
+        "Formulation",
+        "Cryopreserved"
+      ],
+      [
+        "Storage Condition",
+        "−20°C"
+      ],
+      [
+        "Manufacturer",
+        "Nanoventra"
+      ],
+      [
+        "Country of Manufacture",
+        "United States of America"
+      ],
+      [
+        "Intended Use",
+        "Professional Research & Biotechnology Applications"
+      ]
+    ],
+    "highlights": [
+      "American Manufactured",
+      "HUC-MSC Derived",
+      "Wharton’s Jelly Source",
+      "20 Billion Particle Concentration",
+      "Cryopreserved Formulation",
+      "Storage: −20°C",
+      "Advanced extracellular vesicle purification",
+      "Controlled laboratory-grade isolation"
+    ],
+    "sourceAndTech": "Whartexa™ 20B is derived from Wharton’s Jelly Human Umbilical Cord Mesenchymal Stem Cells (HUC-MSCs). The product is processed through controlled extracellular vesicle isolation and purification workflows and supplied in a cryopreserved format designed to support extracellular vesicle integrity and formulation consistency.",
+    "qualityPoints": [
+      "Extracellular vesicle integrity",
+      "Particle concentration",
+      "Particle characteristics",
+      "Purification consistency",
+      "Product stability",
+      "Handling reproducibility"
+    ],
+    "storagePoints": [
+      "Maintain cryopreserved conditions during handling.",
+      "Avoid repeated freeze–thaw exposure.",
+      "Minimize unnecessary temperature fluctuations.",
+      "Follow the applicable product handling instructions."
+    ],
+    "manufacturerInfo": {
+      "name": "Nanoventra",
+      "address": "1441 West Innovation Way, Suite 400, Lehi, Utah 84043, United States of America",
+      "tagline": "American Biotechnology Company | Extracellular Vesicle & Exosome Manufacturing"
+    },
+    "productRange": [],
+    "molecularTech": {},
+    "keyBenefits": [],
+    "composition": {},
+    "ghkcuInfo": {},
+    "howItWorks": [],
+    "skinRemodeling": {},
+    "treatmentIndications": [],
+    "applications": []
+  },
+  "whartexa-60b": {
+    "pageType": "whartexa",
+    "specifications": [
+      [
+        "Product Name",
+        "Whartexa™ 60B"
+      ],
+      [
+        "Product Type",
+        "HUC-MSC-Derived Extracellular Vesicle / Exosome Preparation"
+      ],
+      [
+        "Biological Source",
+        "Human Umbilical Cord"
+      ],
+      [
+        "Cell Source",
+        "Human Umbilical Cord Mesenchymal Stem Cells (HUC-MSCs)"
+      ],
+      [
+        "Tissue Source",
+        "Wharton’s Jelly"
+      ],
+      [
+        "Particle Concentration",
+        "60 Billion Particles"
+      ],
+      [
+        "Formulation",
+        "Cryopreserved"
+      ],
+      [
+        "Storage Condition",
+        "−20°C"
+      ],
+      [
+        "Manufacturer",
+        "Nanoventra"
+      ],
+      [
+        "Country of Manufacture",
+        "United States of America"
+      ],
+      [
+        "Intended Use",
+        "Professional Research & Biotechnology Applications"
+      ]
+    ],
+    "highlights": [
+      "American Manufactured",
+      "HUC-MSC Derived",
+      "Wharton’s Jelly Source",
+      "60 Billion Particle Concentration",
+      "Ultra-High-Concentration Formulation",
+      "Cryopreserved",
+      "Storage: −20°C",
+      "Advanced extracellular vesicle purification",
+      "Controlled laboratory-grade isolation"
+    ],
+    "sourceAndTech": "Whartexa™ 60B is derived from Wharton’s Jelly Human Umbilical Cord Mesenchymal Stem Cells (HUC-MSCs). The formulation is processed through controlled extracellular vesicle isolation and purification workflows, followed by cryopreservation designed to support extracellular vesicle integrity and formulation consistency.",
+    "qualityPoints": [
+      "Extracellular vesicle integrity",
+      "Particle concentration consistency",
+      "Biological stability",
+      "Purification precision",
+      "Handling reproducibility",
+      "Controlled cryopreservation"
+    ],
+    "storagePoints": [
+      "Maintain cryopreserved conditions during handling.",
+      "Avoid repeated freeze–thaw exposure.",
+      "Minimize unnecessary temperature fluctuations.",
+      "Follow the applicable product handling instructions."
+    ],
+    "manufacturerInfo": {
+      "name": "Nanoventra",
+      "address": "1441 West Innovation Way, Suite 400, Lehi, Utah 84043, United States of America",
+      "tagline": "American Biotechnology Company | Extracellular Vesicle & Exosome Manufacturing"
+    },
+    "productRange": [],
+    "molecularTech": {},
+    "keyBenefits": [],
+    "composition": {},
+    "ghkcuInfo": {},
+    "howItWorks": [],
+    "skinRemodeling": {},
+    "treatmentIndications": [],
+    "applications": []
+  },
+  "hyalique-x-full-kit": {
+    "pageType": "hyalique-x",
+    "specifications": [
+      [
+        "Product Name",
+        "HYALIQUE-X™"
+      ],
+      [
+        "Product Type",
+        "Cross-Linked Hyaluronic Acid Dermal Filler"
+      ],
+      [
+        "Technology",
+        "Cross-Linked HA"
+      ],
+      [
+        "Available Volumes",
+        "1 mL & 2 mL"
+      ],
+      [
+        "HA Concentrations",
+        "18 mg & 24 mg"
+      ],
+      [
+        "Molecular Options",
+        "Small-Molecular & Large-Molecular HA"
+      ],
+      [
+        "Origin",
+        "Republic of Korea"
+      ],
+      [
+        "Manufacturer",
+        "Vesco Science Co., Ltd."
+      ],
+      [
+        "Intended Use",
+        "Professional Aesthetic Use"
+      ]
+    ],
+    "highlights": [],
+    "sourceAndTech": "",
+    "qualityPoints": [],
+    "storagePoints": [],
+    "manufacturerInfo": {},
+    "productRange": [
+      {
+        "variant": "Small Molecular HA",
+        "volume": "1 mL",
+        "concentration": "18 mg",
+        "type": "Soft Filler",
+        "application": "Lips • Fine Lines"
+      },
+      {
+        "variant": "Large Molecular HA",
+        "volume": "1 mL",
+        "concentration": "24 mg",
+        "type": "Hard Filler",
+        "application": "Chin • Nose • Jawline"
+      },
+      {
+        "variant": "Small Molecular HA",
+        "volume": "2 mL",
+        "concentration": "18 mg",
+        "type": "Soft Filler",
+        "application": "Mid-face • Volume Restoration"
+      },
+      {
+        "variant": "Large Molecular HA",
+        "volume": "2 mL",
+        "concentration": "24 mg",
+        "type": "Hard Filler",
+        "application": "Facial Contouring"
+      }
+    ],
+    "molecularTech": {
+      "small": {
+        "title": "Small-Molecular Hyaluronic Acid — Soft Filler",
+        "description": "A low-viscosity formulation designed for smooth and even distribution within dermal tissue, supporting hydration, flexibility, natural softness, and refined aesthetic enhancement.",
+        "idealFor": [
+          "Lips",
+          "Fine Lines",
+          "Mid-face",
+          "Volume Restoration"
+        ]
+      },
+      "large": {
+        "title": "Large-Molecular Hyaluronic Acid — Hard Filler",
+        "description": "A high-density, high-viscosity formulation designed for lifting capacity, projection, shape retention, and structural support in deeper tissue planes.",
+        "idealFor": [
+          "Chin",
+          "Nose",
+          "Jawline",
+          "Facial Contouring"
+        ]
+      }
+    },
+    "keyBenefits": [
+      {
+        "title": "Deep Hydration",
+        "desc": "Supports enhanced hydration and improved skin quality."
+      },
+      {
+        "title": "Facial Contouring",
+        "desc": "Provides structural support for refined facial definition."
+      },
+      {
+        "title": "Volume Restoration",
+        "desc": "Designed to restore volume while maintaining balanced facial proportions."
+      },
+      {
+        "title": "Lifting & Projection",
+        "desc": "Large-molecular formulations provide enhanced structural support, projection, and shape retention."
+      },
+      {
+        "title": "Fine-Line Refinement",
+        "desc": "Small-molecular formulations provide smooth tissue integration for delicate aesthetic enhancement."
+      },
+      {
+        "title": "Natural-Looking Results",
+        "desc": "Designed for balanced facial harmony and natural-looking aesthetic outcomes."
+      }
+    ],
+    "composition": {},
+    "ghkcuInfo": {},
+    "howItWorks": [],
+    "skinRemodeling": {},
+    "treatmentIndications": [],
+    "applications": []
+  },
+  "blue-vive": {
+    "pageType": "bluevive",
+    "specifications": [
+      [
+        "Product Name",
+        "BlueVive Booster™"
+      ],
+      [
+        "Product Category",
+        "Advanced Peptide Bio-Remodeling Booster"
+      ],
+      [
+        "Product Type",
+        "Copper-Activated Regenerative Peptide Complex"
+      ],
+      [
+        "Primary Bioactive",
+        "Copper Tripeptide-1 (GHK-Cu)"
+      ],
+      [
+        "Supporting Component",
+        "Non-Crosslinked Hyaluronic Acid"
+      ],
+      [
+        "Peptide Form",
+        "Lyophilized Powder"
+      ],
+      [
+        "Peptide Quantity",
+        "300 mg"
+      ],
+      [
+        "Origin",
+        "Republic of Korea"
+      ],
+      [
+        "Manufacturer",
+        "Vesco Science Co., Ltd."
+      ],
+      [
+        "Marketed By",
+        "EverCeutical Private Limited"
+      ],
+      [
+        "Intended Use",
+        "Professional Aesthetic Use"
+      ]
+    ],
+    "highlights": [],
+    "sourceAndTech": "",
+    "qualityPoints": [],
+    "storagePoints": [],
+    "manufacturerInfo": {},
+    "productRange": [],
+    "molecularTech": {},
+    "keyBenefits": [],
+    "composition": {
+      "title": "Product Composition",
+      "primary": "Copper Tripeptide-1 (GHK-Cu)",
+      "supporting": "Non-Crosslinked Hyaluronic Acid",
+      "description": "The product system combines a lyophilized regenerative peptide complex with a Non-Crosslinked Hyaluronic Acid component."
+    },
+    "ghkcuInfo": {
+      "title": "Powered by GHK-Cu",
+      "subtitle": "Copper Tripeptide-1",
+      "description": "GHK-Cu (Copper Tripeptide-1) is the key bioactive peptide component of BlueVive Booster™. Combined with Non-Crosslinked Hyaluronic Acid, GHK-Cu forms a synergistic regenerative system designed to support cellular repair pathways, collagen synthesis, skin hydration, and extracellular matrix remodeling.",
+      "characteristics": [
+        "Highly Effective Peptide",
+        "Stable & Potent",
+        "Optimal Bioactivity",
+        "Clinical-Grade Formulation"
+      ]
+    },
+    "howItWorks": [
+      "GHK-Cu + Hyaluronic Acid",
+      "Cellular Repair Support",
+      "Extracellular Matrix Remodeling",
+      "Collagen & Elastin Support",
+      "Improved Skin Quality & Rejuvenation"
+    ],
+    "skinRemodeling": {
+      "firmness": {
+        "title": "Firmness & Structural Support",
+        "points": [
+          "Improved skin firmness",
+          "Enhanced structural support",
+          "Reduced appearance of fine lines"
+        ]
+      },
+      "elasticity": {
+        "title": "Elasticity & Skin Quality",
+        "points": [
+          "Better elasticity",
+          "Improved skin bounce",
+          "More youthful-looking skin"
+        ]
+      },
+      "ecm": {
+        "title": "Extracellular Matrix Support",
+        "points": [
+          "Collagen",
+          "Elastin",
+          "Glycosaminoglycans (GAGs)",
+          "Tissue Remodeling Factors"
+        ]
+      }
+    },
+    "treatmentIndications": [
+      "Fine Lines & Wrinkles",
+      "Aging Skin",
+      "Skin Laxity",
+      "Dull Skin",
+      "Uneven Skin Texture",
+      "Skin Quality Enhancement",
+      "Post-Procedure Recovery"
+    ],
+    "applications": [
+      "Microneedling",
+      "Exosome Therapy",
+      "RF Treatments",
+      "Laser Procedures",
+      "Mesotherapy"
+    ]
+  }
+}

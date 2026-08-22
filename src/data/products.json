@@ -1,0 +1,690 @@
+[
+  {
+    "id": "exogenesis-scalp-10b",
+    "title": "ExoGenesis hUC-MSCs",
+    "subtitle": "Exosomes Scalp Kit (10 Billion)",
+    "desc": "Advanced Regenerative Formula for Hair & Scalp Restoration with 9 Bioactive Peptides",
+    "href": "/products/exogenesis-scalp-10b",
+    "img": "/images/products/exogenesis-scalp-10b/main.jpg",
+    "images": [
+      "/images/products/exogenesis-scalp-10b/main.jpg",
+      "/images/products/exogenesis-scalp-10b/product-1.png",
+      "/images/products/exogenesis-scalp-10b/product-2.png",
+      "/images/products/exogenesis-scalp-10b/product-3.png",
+      "/images/products/exogenesis-scalp-10b/product-4.jpeg"
+    ],
+    "fullName": "EXOGENESIS Scalp-10B",
+    "category": "EXOGENESIS",
+    "size": "5ml",
+    "kitContent": [
+      "1 Vial Lyophilized hUC-MSCs Exosomes — 10 Billion+ exosome particles",
+      "1 Vial Peptide-Based Diluent Solution — 9 bioactive peptides"
+    ],
+    "peptides": [
+      {
+        "name": "Oligopeptide-1 (EGF)",
+        "function": "Stimulates scalp cell renewal and follicle stem cell activation"
+      },
+      {
+        "name": "Copper Tripeptide-1 (GHK-Cu)",
+        "function": "Enhances collagen synthesis, reduces inflammation, improves scalp microcirculation"
+      },
+      {
+        "name": "Acetyl Tetrapeptide-3",
+        "function": "Strengthens follicle anchoring and supports ECM remodeling"
+      },
+      {
+        "name": "Biotinoyl Tripeptide-1",
+        "function": "Boosts hair root strength and reduces shedding"
+      },
+      {
+        "name": "Myristoyl Pentapeptide-17",
+        "function": "Increases hair shaft thickness and density"
+      },
+      {
+        "name": "Palmitoyl Tetrapeptide-7",
+        "function": "Reduces scalp inflammation and supports healing"
+      },
+      {
+        "name": "Decapeptide-4",
+        "function": "Stimulates dermal regeneration and follicle microenvironment optimization"
+      },
+      {
+        "name": "Oligopeptide-2",
+        "function": "Improves scalp elasticity and supports collagen framework"
+      },
+      {
+        "name": "SH-Polypeptide-9 (VEGF)",
+        "function": "Enhances scalp vascularization, ensuring nutrients reach follicles"
+      }
+    ],
+    "benefits": [
+      "Activates dormant hair follicles & promotes new growth",
+      "Enhances scalp healing, elasticity & microcirculation",
+      "Reduces DHT-driven follicle miniaturization",
+      "Strengthens anchoring proteins for better hair retention",
+      "Balances scalp pH and supports a healthier scalp biome"
+    ],
+    "idealFor": [
+      "Early-stage hair thinning and receding hairline",
+      "Postpartum hair loss",
+      "Scalp inflammation and poor microcirculation"
+    ],
+    "howToUse": [
+      "Mix lyophilized exosome vial with peptide diluent before each session",
+      "Apply via microneedling (0.5–1.5mm) or derma roller on cleansed scalp",
+      "2–4 sessions, with an interval of approximately 2 months between each session, or as recommended by the treating physician."
+    ],
+    "importantNote": "For professional use only. Perform a patch test 24 hours before full application. Not recommended for pregnant or breastfeeding individuals.",
+    "usage": "Mix lyophilized powder with peptide diluent. Apply via derma roller, microneedling, or gentle massage. 2–4 sessions with approximately 2 months between each session.",
+    "bgColor": "#e8f0f5",
+    "accentColor": "#4a8ba8",
+    "featured": true,
+    "caseStudies": [
+      {
+        "name": "Ms. Seo-Young",
+        "age": 31,
+        "gender": "Female",
+        "concern": "Complete Baldness Across the Forehead Hairline",
+        "treatment": "ExoGenesis™ Advanced Scalp Regeneration Protocol",
+        "sessions": "6 Sessions (Every 60 Days)",
+        "results": "Over 90% of the previously bald area was covered with new, healthy hair growth, and her hairline looked naturally restored.",
+        "feedback": "I used to hide behind bangs and scarves. Now, seeing my hairline come back feels like getting part of myself back. It's an amazing change.",
+        "beforeImage": "https://cdn.shopify.com/s/files/1/0956/4926/8006/files/WhatsApp_Image_2025-06-08_at_8.53.00_PM.jpg?v=1749500290",
+        "afterImage": "https://cdn.shopify.com/s/files/1/0956/4926/8006/files/WhatsApp_Image_2025-06-08_at_8.53.00_PM.jpg?v=1749500290"
+      },
+      {
+        "name": "Ms. Soo-Yeon",
+        "age": 29,
+        "gender": "Female",
+        "concern": "Diffuse Thinning and Visible Baldness at the Center of Scalp",
+        "treatment": "ExoGenesis™ Scalp Regeneration Therapy",
+        "sessions": "4 Sessions (60 Days Apart)",
+        "results": "Nearly 90% of the bald area was covered, and new hair growth began filling in the gaps with healthier strands.",
+        "feedback": "I was worried my hair would never recover, but the results have been amazing. I feel feminine and confident again—like myself.",
+        "beforeImage": "https://cdn.shopify.com/s/files/1/0956/4926/8006/files/WhatsApp_Image_2025-06-08_at_12.14.29_PM.jpg?v=1749411529",
+        "afterImage": "https://cdn.shopify.com/s/files/1/0956/4926/8006/files/WhatsApp_Image_2025-06-08_at_12.14.29_PM.jpg?v=1749411529"
+      },
+      {
+        "name": "Ms. Ha-Eun",
+        "age": 35,
+        "gender": "Female",
+        "concern": "Progressive Hair Loss and Visible Baldness in Center of Scalp",
+        "treatment": "ExoGenesis™ Hair Regeneration Protocol",
+        "sessions": "4 Sessions (60 Days Apart)",
+        "results": "90% of the affected area was covered, and the new hair growth appeared naturally blended and healthy.",
+        "feedback": "It felt like my hair was vanishing day by day. But now, seeing myself in the mirror makes me smile again.",
+        "beforeImage": "https://cdn.shopify.com/s/files/1/0956/4926/8006/files/WhatsApp_Image_2025-06-05_at_4.40.28_PM.jpg?v=1749409970",
+        "afterImage": "https://cdn.shopify.com/s/files/1/0956/4926/8006/files/WhatsApp_Image_2025-06-05_at_4.40.28_PM.jpg?v=1749409970"
+      }
+    ]
+  },
+  {
+    "id": "exogenesis-scalp-15b",
+    "title": "ExoGenesis hUC-MSCs",
+    "subtitle": "Exosomes Scalp Kit (15 Billion)",
+    "desc": "High-Performance Scalp Treatment with 13 Advanced Peptides",
+    "href": "/products/exogenesis-scalp-15b",
+    "img": "/images/products/exogenesis-scalp-15b/main.jpg",
+    "images": [
+      "/images/products/exogenesis-scalp-15b/main.jpg",
+      "/images/products/exogenesis-scalp-15b/product-1.png",
+      "/images/products/exogenesis-scalp-15b/product-2.png",
+      "/images/products/exogenesis-scalp-15b/product-3.png",
+      "/images/products/exogenesis-scalp-15b/product-4.png"
+    ],
+    "fullName": "EXOGENESIS Scalp-15B",
+    "category": "EXOGENESIS",
+    "size": "5ml",
+    "kitContent": [
+      "1 Vial Lyophilized hUC-MSCs Exosomes — 15 Billion+ (3 Billion/ml)",
+      "1 Vial Peptide-Based Diluent Solution — 13 advanced bioactive peptides"
+    ],
+    "peptides": [
+      {
+        "name": "Oligopeptide-1 (EGF)",
+        "function": "Stimulates epidermal regeneration and follicle stem cell activation"
+      },
+      {
+        "name": "Oligopeptide-2",
+        "function": "Boosts skin elasticity and supports collagen structure"
+      },
+      {
+        "name": "Decapeptide-4",
+        "function": "Encourages dermal renewal and follicular microenvironment optimization"
+      },
+      {
+        "name": "Acetyl Decapeptide-3 (Rejuline)",
+        "function": "Enhances keratinocyte proliferation and hair cycle rejuvenation"
+      },
+      {
+        "name": "Copper Tripeptide-1 (GHK-Cu)",
+        "function": "Promotes angiogenesis, collagen synthesis, anti-inflammatory"
+      },
+      {
+        "name": "Biotinoyl Tripeptide-1",
+        "function": "Strengthens dermal-epidermal junction, improves follicle anchoring"
+      },
+      {
+        "name": "Acetyl Tetrapeptide-3",
+        "function": "Supports ECM restructuring, reduces perifollicular fibrosis"
+      },
+      {
+        "name": "Myristoyl Pentapeptide-17",
+        "function": "Enhances hair shaft thickness and follicle metabolism"
+      },
+      {
+        "name": "Palmitoyl Tetrapeptide-7",
+        "function": "Reduces scalp inflammation and supports healing"
+      },
+      {
+        "name": "SH-Polypeptide-9 (VEGF)",
+        "function": "Improves scalp vascularization and nutrient delivery"
+      },
+      {
+        "name": "SH-Polypeptide-1 (FGF)",
+        "function": "Regenerates dermal fibroblasts, maintains healthy dermis"
+      },
+      {
+        "name": "SH-Oligopeptide-2 (IGF-1)",
+        "function": "Prevents follicle shrinkage, enhances anagen phase longevity"
+      },
+      {
+        "name": "Decapeptide-18",
+        "function": "Stimulates dermal papilla cells and promotes new hair growth"
+      }
+    ],
+    "benefits": [
+      "Stimulates hair follicle regeneration",
+      "Accelerates scalp healing & microcirculation",
+      "Reduces inflammation & DHT-induced damage",
+      "Strengthens hair anchoring proteins",
+      "Improves scalp environment & homeostasis"
+    ],
+    "idealFor": [
+      "Moderate to advanced hair loss (Norwood 3–5)",
+      "Thinning hair with weakened follicle anchoring",
+      "Scalp showing signs of inflammation or fibrosis"
+    ],
+    "howToUse": [
+      "Reconstitute lyophilized powder with the 13-peptide diluent solution",
+      "Administer via microneedling or mesotherapy at 1mm depth",
+      "2–4 sessions with approximately 2 months between each session, or as recommended by the treating physician."
+    ],
+    "importantNote": "Higher peptide concentration — perform comprehensive sensitivity screening. Avoid use on irritated or broken scalp skin. For licensed practitioners only.",
+    "usage": "Mix lyophilized exosome vial with peptide diluent immediately before use. Apply via derma roller, microneedling, or gentle massage. 2–4 sessions with approximately 2 months between each session.",
+    "bgColor": "#ede8f5",
+    "accentColor": "#7c5c9e",
+    "featured": true,
+    "caseStudies": [
+      {
+        "name": "Mr. Ji-Hoon",
+        "age": 45,
+        "gender": "Male",
+        "concern": "Norwood stage 4 male pattern baldness with significant crown thinning",
+        "treatment": "ExoGenesis™ Scalp Regeneration Protocol",
+        "sessions": "6 Sessions (Every 60 Days)",
+        "results": "Visible regrowth at the crown and improved hair density across treated areas. New hair strands appeared thicker and healthier.",
+        "feedback": "The 15B formula exceeded my expectations. New baby hairs appeared after session 3, and the crown area is filling in beautifully.",
+        "beforeImage": "https://cdn.shopify.com/s/files/1/0956/4926/8006/files/WhatsApp_Image_2025-06-08_at_9.10.32_PM.jpg?v=1749500621",
+        "afterImage": "https://cdn.shopify.com/s/files/1/0956/4926/8006/files/WhatsApp_Image_2025-06-08_at_9.10.32_PM.jpg?v=1749500621"
+      },
+      {
+        "name": "Mr. Dong-Hyun",
+        "age": 38,
+        "gender": "Male",
+        "concern": "Diffuse hair thinning across the vertex and frontal scalp regions",
+        "treatment": "ExoGenesis™ Scalp Regeneration Therapy",
+        "sessions": "5 Sessions (Every 60 Days)",
+        "results": "Noticeable improvement in hair density and coverage across the treated areas. Hair appeared thicker and more robust.",
+        "feedback": "I started treatment early and the 15B formula delivered exactly what I hoped for. My hair feels fuller and healthier than before.",
+        "beforeImage": "https://cdn.shopify.com/s/files/1/0956/4926/8006/files/WhatsApp_Image_2025-06-08_at_9.27.21_PM.jpg?v=1749501331",
+        "afterImage": "https://cdn.shopify.com/s/files/1/0956/4926/8006/files/WhatsApp_Image_2025-06-08_at_9.27.21_PM.jpg?v=1749501331"
+      }
+    ]
+  },
+  {
+    "id": "exogenesis-vital-kit-10b",
+    "title": "ExoGenesis hUC-MSCs",
+    "subtitle": "Exosomes Vital Kit (10 Billion)",
+    "desc": "Advanced Anti-Aging & Skin Rejuvenation Therapy with 9 Peptides",
+    "href": "/products/exogenesis-vital-kit-10b",
+    "img": "/images/products/exogenesis-vital-kit-10b/main.png",
+    "images": [
+      "/images/products/exogenesis-vital-kit-10b/main.png",
+      "/images/products/exogenesis-vital-kit-10b/product-1.png",
+      "/images/products/exogenesis-vital-kit-10b/product-2.png",
+      "/images/products/exogenesis-vital-kit-10b/product-3.png",
+      "/images/products/exogenesis-vital-kit-10b/product-4.png"
+    ],
+    "fullName": "EXOGENESIS Vital Kit-10B",
+    "category": "EXOGENESIS",
+    "size": "5ml",
+    "kitContent": [
+      "1 Vial Lyophilized Exosomes — 2 Billion/ml, 5ml vial = 10 Billion",
+      "1 Vial Peptide-Infused Diluent — 9 dermatology-grade anti-aging peptides"
+    ],
+    "peptides": [
+      {
+        "name": "Oligopeptide-1 (EGF)",
+        "function": "Stimulates epidermal regeneration and skin healing"
+      },
+      {
+        "name": "Acetyl Hexapeptide-8 (Argireline)",
+        "function": "Reduces dynamic wrinkles by relaxing facial muscles"
+      },
+      {
+        "name": "Palmitoyl Pentapeptide-4 (Matrixyl)",
+        "function": "Boosts collagen synthesis and reduces deep wrinkles"
+      },
+      {
+        "name": "Copper Tripeptide-1 (GHK-Cu)",
+        "function": "Antioxidant, promotes wound healing, increases firmness"
+      },
+      {
+        "name": "Palmitoyl Tetrapeptide-7",
+        "function": "Calms inflammation and boosts dermal repair"
+      },
+      {
+        "name": "Decapeptide-4",
+        "function": "Enhances cellular turnover and skin smoothness"
+      },
+      {
+        "name": "Hexapeptide-9",
+        "function": "Improves skin elasticity and tightness"
+      },
+      {
+        "name": "Oligopeptide-2",
+        "function": "Boosts fibroblast growth and tissue repair"
+      },
+      {
+        "name": "SH-Oligopeptide-2 (IGF-1)",
+        "function": "Promotes skin density, thickness, and youthful resilience"
+      }
+    ],
+    "benefits": [
+      "Reduces fine lines & wrinkles",
+      "Improves skin tone, elasticity & firmness",
+      "Boosts collagen & elastin regeneration",
+      "Revitalizes dull, rough, tired-looking skin",
+      "Provides deep hydration and nourishment"
+    ],
+    "idealFor": [
+      "Early signs of aging and fine lines",
+      "Dull, uneven skin tone and texture",
+      "Post-procedure skin recovery and rejuvenation"
+    ],
+    "howToUse": [
+      "Reconstitute lyophilized exosomes with peptide-infused diluent",
+      "Apply via microneedling (0.25–1.0mm) or skin booster injection",
+      "2–4 sessions monthly for face, neck, décolleté, or hands"
+    ],
+    "importantNote": "For professional use only. Avoid direct sun exposure for 48 hours post-treatment. Use SPF 50+ sunscreen daily during treatment course.",
+    "usage": "Mix both components before application. Use via microneedling, skin booster injection, or post-laser recovery. 2-4 sessions monthly. Suitable for face, neck, décolleté, and hands.",
+    "bgColor": "#f0f0e8",
+    "accentColor": "#9a8a5c",
+    "featured": true,
+    "caseStudies": [
+      {
+        "name": "Ms. Yu-Jin",
+        "age": 42,
+        "gender": "Female",
+        "concern": "Fine lines around eyes and forehead with loss of skin radiance",
+        "treatment": "ExoGenesis™ Anti-Aging Skin Rejuvenation Protocol",
+        "sessions": "4 Sessions (Bi-Weekly)",
+        "results": "Improved skin texture, reduced fine lines, and noticeably brighter complexion. Skin appeared plumper and more youthful.",
+        "feedback": "Friends asked if I got a facial. My skin has never looked this healthy. The glow is incredible.",
+        "beforeImage": "https://huggingface.co/spaces/bilal23bhai/EVERCEUTICALS/resolve/main/images/before-after/skin-redness.png",
+        "afterImage": "https://huggingface.co/spaces/bilal23bhai/EVERCEUTICALS/resolve/main/images/before-after/skin-redness.png"
+      },
+      {
+        "name": "Ms. Ji-Yeon",
+        "age": 37,
+        "gender": "Female",
+        "concern": "Uneven skin tone, dull complexion, and early signs of aging",
+        "treatment": "ExoGenesis™ Skin Revitalization Protocol",
+        "sessions": "4 Sessions (Bi-Weekly)",
+        "results": "Skin tone became more even, complexion appeared brighter, and fine lines were visibly reduced. Overall skin quality improved significantly.",
+        "feedback": "My skin looks so much healthier now. The dullness is gone and I finally feel comfortable going out without heavy makeup.",
+        "beforeImage": "https://huggingface.co/spaces/bilal23bhai/EVERCEUTICALS/resolve/main/images/before-after/skin-pores.png",
+        "afterImage": "https://huggingface.co/spaces/bilal23bhai/EVERCEUTICALS/resolve/main/images/before-after/skin-pores.png"
+      }
+    ]
+  },
+  {
+    "id": "exogenesis-vital-kit-15b",
+    "title": "ExoGenesis hUC-MSCs",
+    "subtitle": "Exosomes Vital Kit (15 Billion)",
+    "desc": "Premium Anti-Aging & Skin Rejuvenation Therapy with 15 Billion Exosomes",
+    "href": "/products/exogenesis-vital-kit-15b",
+    "img": "/images/products/exogenesis-vital-kit-15b/main.png",
+    "images": [
+      "/images/products/exogenesis-vital-kit-15b/main.png",
+      "/images/products/exogenesis-vital-kit-15b/product-1.png"
+    ],
+    "fullName": "EXOGENESIS Vital Kit-15B",
+    "category": "EXOGENESIS",
+    "size": "5ml",
+    "kitContent": [
+      "1 Vial Lyophilized Exosomes — 3 Billion/ml, 5ml vial = 15 Billion",
+      "1 Vial Peptide-Infused Diluent — Advanced anti-aging peptide blend"
+    ],
+    "peptides": [
+      {
+        "name": "Oligopeptide-1 (EGF)",
+        "function": "Stimulates epidermal regeneration and skin healing"
+      },
+      {
+        "name": "Acetyl Hexapeptide-8 (Argireline)",
+        "function": "Reduces dynamic wrinkles by relaxing facial muscles"
+      },
+      {
+        "name": "Palmitoyl Pentapeptide-4 (Matrixyl)",
+        "function": "Boosts collagen synthesis and reduces deep wrinkles"
+      },
+      {
+        "name": "Copper Tripeptide-1 (GHK-Cu)",
+        "function": "Antioxidant, promotes wound healing, increases firmness"
+      },
+      {
+        "name": "Palmitoyl Tetrapeptide-7",
+        "function": "Calms inflammation and boosts dermal repair"
+      },
+      {
+        "name": "Decapeptide-4",
+        "function": "Enhances cellular turnover and skin smoothness"
+      },
+      {
+        "name": "Hexapeptide-9",
+        "function": "Improves skin elasticity and tightness"
+      },
+      {
+        "name": "Oligopeptide-2",
+        "function": "Boosts fibroblast growth and tissue repair"
+      },
+      {
+        "name": "SH-Oligopeptide-2 (IGF-1)",
+        "function": "Promotes skin density, thickness, and youthful resilience"
+      }
+    ],
+    "benefits": [
+      "Reduces fine lines & wrinkles",
+      "Improves skin tone, elasticity & firmness",
+      "Boosts collagen & elastin regeneration",
+      "Revitalizes dull, rough, tired-looking skin",
+      "Provides deep hydration and nourishment"
+    ],
+    "idealFor": [
+      "Advanced signs of aging with deep wrinkles",
+      "Loss of facial volume and skin elasticity",
+      "Post-laser or chemical peel recovery support"
+    ],
+    "howToUse": [
+      "Reconstitute lyophilized exosomes with the advanced peptide diluent",
+      "Administer via microneedling, mesotherapy, or post-laser topical application",
+      "2–4 sessions monthly; suitable for face, neck, décolleté, and hands"
+    ],
+    "importantNote": "Maximum concentration formula — ensure proper skin preparation before application. Avoid combining with retinoid treatments within 72 hours of session.",
+    "usage": "Mix both components before application. Use via microneedling, skin booster injection, or post-laser recovery. 2-4 sessions monthly. Suitable for face, neck, décolleté, and hands.",
+    "bgColor": "#f5ede8",
+    "accentColor": "#b89a6c",
+    "featured": true,
+    "caseStudies": [
+      {
+        "name": "Ms. Eun-Young",
+        "age": 55,
+        "gender": "Female",
+        "concern": "Deep nasolabial folds, forehead wrinkles, and overall skin laxity",
+        "treatment": "ExoGenesis™ Premium Anti-Aging Protocol",
+        "sessions": "6 Sessions (Every 30 Days)",
+        "results": "Visible reduction in wrinkle depth and improved skin firmness and radiance. Facial contours appeared more defined.",
+        "feedback": "I feel 10 years younger. The results are natural-looking and long-lasting. My skin feels firm and hydrated.",
+        "beforeImage": "https://huggingface.co/spaces/bilal23bhai/EVERCEUTICALS/resolve/main/images/before-after/skin-pores.png",
+        "afterImage": "https://huggingface.co/spaces/bilal23bhai/EVERCEUTICALS/resolve/main/images/before-after/skin-pores.png"
+      },
+      {
+        "name": "Ms. Hyun-Ji",
+        "age": 48,
+        "gender": "Female",
+        "concern": "Loss of facial volume, sagging skin, and pronounced wrinkles",
+        "treatment": "ExoGenesis™ Advanced Skin Regeneration Therapy",
+        "sessions": "5 Sessions (Every 30 Days)",
+        "results": "Significant improvement in skin firmness and volume restoration. Wrinkles were visibly softened and skin appeared more youthful.",
+        "feedback": "The 15B formula made a real difference for my mature skin. My face looks lifted and my skin feels incredibly smooth.",
+        "beforeImage": "https://huggingface.co/spaces/bilal23bhai/EVERCEUTICALS/resolve/main/images/before-after/skin-redness.png",
+        "afterImage": "https://huggingface.co/spaces/bilal23bhai/EVERCEUTICALS/resolve/main/images/before-after/skin-redness.png"
+      }
+    ]
+  },
+  {
+    "id": "whartexa-20b",
+    "title": "Whartexa",
+    "subtitle": "American HUC-MSC Exosomes (20 Billion)",
+    "desc": "Standardized HUC-MSC-Derived Exosome Preparation from Wharton's Jelly",
+    "href": "/products/whartexa-20b",
+    "img": "/images/products/whartexa-20b/main.JPG",
+    "images": [
+      "/images/products/whartexa-20b/main.JPG",
+      "/images/products/whartexa-20b/product-1.png",
+      "/images/products/whartexa-20b/product-2.png",
+      "/images/products/whartexa-20b/product-3.png",
+      "/images/products/whartexa-20b/product-4.png"
+    ],
+    "fullName": "WHARTEXA 20B",
+    "category": "WHARTEXA",
+    "size": "5ml",
+    "kitContent": [
+      "1 Vial Lyophilized HUC-MSC-Derived Exosomes — 20 Billion+ particles",
+      "1 Vial Application Solution"
+    ],
+    "peptides": [
+      {
+        "name": "HUC-MSC-Derived Extracellular Vesicles",
+        "function": "Standardized exosome preparation for professional research and biotechnology applications"
+      }
+    ],
+    "benefits": [
+      "American Manufactured by Nanoventra (Lehi, Utah, USA)",
+      "HUC-MSC Derived from Wharton's Jelly",
+      "20 Billion Particle Concentration",
+      "Cryopreserved Formulation for integrity",
+      "Advanced extracellular vesicle purification",
+      "Controlled laboratory-grade isolation"
+    ],
+    "idealFor": [
+      "Professional research and biotechnology applications",
+      "Extracellular vesicle and exosome manufacturing",
+      "Advanced scalp regeneration protocols"
+    ],
+    "howToUse": [
+      "Maintain cryopreserved conditions during handling (-20°C storage)",
+      "Avoid repeated freeze-thaw exposure",
+      "Minimize unnecessary temperature fluctuations",
+      "Follow applicable product handling instructions"
+    ],
+    "importantNote": "Professional research and biotechnology applications only. Storage at -20°C. Manufactured by Nanoventra, Lehi, Utah, USA.",
+    "usage": "Professional application. Cryopreserved storage at -20°C. Follow product handling instructions.",
+    "bgColor": "#e8eef5",
+    "accentColor": "#5b7c91"
+  },
+  {
+    "id": "whartexa-60b",
+    "title": "Whartexa",
+    "subtitle": "American HUC-MSC Exosomes (60 Billion)",
+    "desc": "Ultra-High-Concentration HUC-MSC-Derived Exosome Preparation from Wharton's Jelly",
+    "href": "/products/whartexa-60b",
+    "img": "/images/products/whartexa-60b/main.JPG",
+    "images": [
+      "/images/products/whartexa-60b/main.JPG",
+      "/images/products/whartexa-60b/product-1.png",
+      "/images/products/whartexa-60b/product-2.png",
+      "/images/products/whartexa-60b/product-3.png",
+      "/images/products/whartexa-60b/product-4.png"
+    ],
+    "fullName": "WHARTEXA 60B",
+    "category": "WHARTEXA",
+    "size": "3ml",
+    "kitContent": [
+      "1 Vial Lyophilized HUC-MSC-Derived Exosomes — 60 Billion+ particles",
+      "1 Vial Application Solution"
+    ],
+    "peptides": [
+      {
+        "name": "HUC-MSC-Derived Extracellular Vesicles",
+        "function": "Flagship high-concentration exosome preparation for professional research and biotechnology applications"
+      }
+    ],
+    "benefits": [
+      "American Manufactured by Nanoventra (Lehi, Utah, USA)",
+      "HUC-MSC Derived from Wharton's Jelly",
+      "60 Billion Particle Concentration — Ultra-High",
+      "Cryopreserved Formulation for integrity",
+      "Advanced extracellular vesicle purification",
+      "Controlled laboratory-grade isolation"
+    ],
+    "idealFor": [
+      "Professional research and biotechnology applications",
+      "Maximum-concentration exosome protocols",
+      "Advanced scalp regeneration requiring ultra-high potency"
+    ],
+    "howToUse": [
+      "Maintain cryopreserved conditions during handling (-20°C storage)",
+      "Avoid repeated freeze-thaw exposure",
+      "Minimize unnecessary temperature fluctuations",
+      "Follow applicable product handling instructions"
+    ],
+    "importantNote": "Professional research and biotechnology applications only. Storage at -20°C. Flagship ultra-high-concentration formulation. Manufactured by Nanoventra, Lehi, Utah, USA.",
+    "usage": "Professional application. Cryopreserved storage at -20°C. Ultra-high concentration formulation. Follow product handling instructions.",
+    "bgColor": "#e8eef5",
+    "accentColor": "#5b7c91"
+  },
+  {
+    "id": "hyalique-x-full-kit",
+    "title": "Hyalique-X",
+    "subtitle": "Complete Dermal Filler Range",
+    "desc": "Professional Dermal Filler System with Two Molecular-Weight Hyaluronic Acid Technologies",
+    "href": "/products/hyalique-x-full-kit",
+    "img": "/images/products/hyalique-x-1ml-hard/main.png",
+    "images": [
+      "/images/products/hyalique-x-1ml-hard/main.png",
+      "/images/products/hyalique-x-1ml-hard/product-1.png",
+      "/images/products/hyalique-x-1ml-hard/product-2.png",
+      "/images/products/hyalique-x-1ml-hard/product-3.png",
+      "/images/products/hyalique-x-1ml-hard/product-4.png"
+    ],
+    "fullName": "HYALIQUE-X",
+    "category": "HYALIQUE-X",
+    "size": "1ml / 2ml",
+    "kitContent": [
+      "Small-Molecular HA (18mg/ml) — Soft Filler for Lips, Fine Lines, Mid-face, Volume Restoration",
+      "Large-Molecular HA (24mg/ml) — Hard Filler for Chin, Nose, Jawline, Facial Contouring",
+      "Available in 1ml and 2ml syringe sizes",
+      "Professional application needles included"
+    ],
+    "peptides": [
+      {
+        "name": "Small-Molecular Hyaluronic Acid (18mg/ml)",
+        "function": "Low-viscosity soft filler for smooth tissue integration, hydration, flexibility, and natural softness"
+      },
+      {
+        "name": "Large-Molecular Hyaluronic Acid (24mg/ml)",
+        "function": "High-density hard filler for lifting capacity, projection, shape retention, and structural support"
+      }
+    ],
+    "benefits": [
+      "Deep hydration and improved skin quality",
+      "Facial contouring with structural support",
+      "Volume restoration with balanced facial proportions",
+      "Lifting and projection for enhanced definition",
+      "Fine-line refinement with smooth tissue integration",
+      "Natural-looking results for balanced facial harmony"
+    ],
+    "idealFor": [
+      "Lips, fine lines, mid-face, and volume restoration (Small-Molecular HA)",
+      "Chin, nose, jawline, and facial contouring (Large-Molecular HA)",
+      "Full-face rejuvenation requiring multiple treatment modalities",
+      "Clinics seeking a comprehensive aesthetic filler system"
+    ],
+    "howToUse": [
+      "Small-Molecular HA: Inject into mid-to-deep dermis for lips, fine lines, mid-face volume",
+      "Large-Molecular HA: Inject into deep dermis or supraperiosteal plane for chin, nose, jawline",
+      "Use serial puncture or linear threading technique depending on treatment area",
+      "Results last 6-18 months depending on product type and treatment area"
+    ],
+    "importantNote": "Professional injection only. Avoid areas with active infection or inflammation. Contraindicated for individuals with known hypersensitivity to hyaluronic acid. Two molecular-weight technologies available for different treatment needs.",
+    "usage": "Professional injection only. Small-Molecular HA for lips and fine lines. Large-Molecular HA for structural contouring. Multiple session types available.",
+    "bgColor": "#f5f0e8",
+    "accentColor": "#c9a84a",
+    "caseStudies": [
+      {
+        "name": "Ms. Soo-Hee",
+        "age": 52,
+        "gender": "Female",
+        "concern": "Global facial aging with volume loss, wrinkles, and skin dehydration",
+        "treatment": "HYALIQUE-X Complete Rejuvenation Protocol",
+        "sessions": "4 Sessions (Every 30 Days)",
+        "results": "Comprehensive improvement in skin volume, texture, hydration, and overall youthful appearance. Facial contours restored.",
+        "feedback": "This kit addressed everything I was concerned about. My skin looks and feels completely renewed. I feel radiant again.",
+        "beforeImage": "https://huggingface.co/spaces/bilal23bhai/EVERCEUTICALS/resolve/main/images/before-after/skin-redness.png",
+        "afterImage": "https://huggingface.co/spaces/bilal23bhai/EVERCEUTICALS/resolve/main/images/before-after/skin-redness.png"
+      }
+    ]
+  },
+  {
+    "id": "blue-vive",
+    "title": "BlueVive",
+    "subtitle": "Advanced Peptide Bio-Remodeling Booster",
+    "desc": "Copper-Activated Regenerative Peptide Complex with GHK-Cu and Non-Crosslinked Hyaluronic Acid",
+    "href": "/products/blue-vive",
+    "img": "/images/products/hyalique-x-booster/main.png",
+    "images": [
+      "/images/products/hyalique-x-booster/main.png",
+      "/images/products/hyalique-x-booster/product-2.png",
+      "/images/products/hyalique-x-booster/product-3.png",
+      "/images/products/hyalique-x-booster/product-4.png",
+      "/images/products/hyalique-x-booster/product-5.png"
+    ],
+    "fullName": "BLUEVIVE BOOSTER",
+    "category": "BLUEVIVE",
+    "size": "300mg",
+    "kitContent": [
+      "1 Vial Lyophilized Regenerative Peptide Complex (300mg)",
+      "1 Vial Non-Crosslinked Hyaluronic Acid Solvent (3ml)"
+    ],
+    "peptides": [
+      {
+        "name": "Copper Tripeptide-1 (GHK-Cu)",
+        "function": "Primary bioactive for extracellular matrix remodeling, collagen synthesis, and skin recovery"
+      },
+      {
+        "name": "Non-Crosslinked Hyaluronic Acid",
+        "function": "Supporting component for deep hydration, skin firmness, and elasticity"
+      }
+    ],
+    "benefits": [
+      "Supports skin firmness, elasticity, and texture",
+      "Promotes collagen synthesis and ECM remodeling",
+      "Deep skin hydration and recovery",
+      "Improves overall skin quality",
+      "Professional-grade regenerative peptide complex",
+      "Copper-activated formulation"
+    ],
+    "idealFor": [
+      "Dehydrated, dull, or aging skin lacking radiance",
+      "Fine lines, crepey texture, and loss of firmness",
+      "Maintenance treatments between filler or laser sessions",
+      "Professional aesthetic skin-remodeling protocols"
+    ],
+    "howToUse": [
+      "Reconstitute lyophilized powder with the Non-Crosslinked HA solvent before use",
+      "Administer via professional microneedling, mesotherapy, or injection",
+      "3-4 sessions spaced 2-4 weeks apart for optimal results",
+      "Use immediately after reconstitution"
+    ],
+    "importantNote": "Professional use only. For aesthetic skin-remodeling applications. Reconstitute before use and apply immediately. Store lyophilized powder at room temperature. Manufactured by Vesco Science Co., Ltd., South Korea.",
+    "usage": "Professional mesotherapy or microneedling. Reconstitute before use. 3-4 sessions spaced 2-4 weeks apart.",
+    "bgColor": "#f5f5e8",
+    "accentColor": "#c9b44a",
+    "caseStudies": []
+  }
+]
