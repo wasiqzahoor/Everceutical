@@ -8,20 +8,8 @@ export default function BackgroundVideo() {
   const [loaded, setLoaded] = useState(false)
   const { setVideoReady } = useLoading()
   const readyFiredRef = useRef(false)
-  const [isMobile, setIsMobile] = useState(false)
 
   useEffect(() => {
-    const mobile = window.innerWidth < 768
-    setIsMobile(mobile)
-    if (mobile) {
-      setLoaded(true)
-      setVideoReady(true)
-    }
-  }, [setVideoReady])
-
-  useEffect(() => {
-    if (isMobile) return
-
     const v = videoRef.current
     if (!v) return
 
@@ -62,20 +50,7 @@ export default function BackgroundVideo() {
       v.removeEventListener("error", onError)
       clearTimeout(fallback)
     }
-  }, [isMobile, setVideoReady])
-
-  if (isMobile) {
-    return (
-      <div
-        className="fixed inset-0 w-full h-full"
-        style={{
-          zIndex: 0,
-          pointerEvents: "none",
-          background: "linear-gradient(135deg, #0c1a2e 0%, #0f2847 40%, #0a1628 100%)",
-        }}
-      />
-    )
-  }
+  }, [setVideoReady])
 
   return (
     <div
