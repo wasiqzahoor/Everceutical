@@ -273,37 +273,59 @@ function FeaturedCard({ post, visible }: { post: BlogPost; visible: boolean }) {
       className="glass-card relative rounded-3xl overflow-hidden group"
       style={{
         opacity: visible ? 1 : 0,
-        transform: visible ? "translateX(0) perspective(1000px) rotateY(0deg)" : "translateX(-80px) perspective(1000px) rotateY(8deg)",
-        transition: "opacity 1.4s cubic-bezier(0.22,1,0.36,1), transform 1.4s cubic-bezier(0.22,1,0.36,1)",
+        transform: visible
+          ? "translateX(0) perspective(1000px) rotateY(0deg)"
+          : "translateX(-80px) perspective(1000px) rotateY(8deg)",
+        transition:
+          "opacity 1.4s cubic-bezier(0.22,1,0.36,1), transform 1.4s cubic-bezier(0.22,1,0.36,1)",
       }}
     >
       <Link href={`/blogs/${post.slug}`} className="flex flex-col lg:flex-row">
         {/* Image side */}
-        <div className="relative lg:w-[55%] h-60 md:h-72 lg:h-[420px] overflow-hidden">
+        <div className="relative lg:w-[55%] h-60 md:h-72 lg:h-auto lg:min-h-[420px] overflow-hidden">
           {post.image ? (
             <img
               src={post.image}
               alt={post.title}
-              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
           ) : (
             <div
-              className="w-full h-full flex items-center justify-center"
+              className="absolute inset-0 w-full h-full flex items-center justify-center"
               style={{
-                background: `linear-gradient(135deg, ${categoryColors[post.category] || "#38bdf8"}22, ${categoryColors[post.category] || "#38bdf8"}44)`,
+                background: `linear-gradient(135deg, ${
+                  categoryColors[post.category] || "#38bdf8"
+                }22, ${
+                  categoryColors[post.category] || "#38bdf8"
+                }44)`,
               }}
             >
-              <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke={categoryColors[post.category] || "#38bdf8"} strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+              <svg
+                width="80"
+                height="80"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke={categoryColors[post.category] || "#38bdf8"}
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
                 <path d="M12 2L2 7l10 5 10-5-10-5z" />
                 <path d="M2 17l10 5 10-5" />
                 <path d="M2 12l10 5 10-5" />
               </svg>
             </div>
           )}
+
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-black/20 lg:block hidden" />
+
           {/* Featured badge */}
-          <div className="absolute top-5 left-5 px-4 py-2 rounded-full text-[10px] sm:text-[11px] font-bold tracking-[0.2em] uppercase text-white"
-            style={{ background: "linear-gradient(135deg, #0ea5e9, #0284c7)" }}>
+          <div
+            className="absolute top-5 left-5 px-4 py-2 rounded-full text-[10px] sm:text-[11px] font-bold tracking-[0.2em] uppercase text-white"
+            style={{
+              background: "linear-gradient(135deg, #0ea5e9, #0284c7)",
+            }}
+          >
             Latest Research
           </div>
         </div>
@@ -320,27 +342,53 @@ function FeaturedCard({ post, visible }: { post: BlogPost; visible: boolean }) {
             >
               {post.category}
             </span>
+
             <span className="text-xs text-[#64748b]">{post.date}</span>
           </div>
+
           <h2 className="text-2xl lg:text-3xl font-bold text-[#0f172a] mb-4 leading-tight group-hover:text-[#38bdf8] transition-colors duration-300">
             {post.title}
           </h2>
+
           <p className="text-[#64748b] text-sm leading-relaxed mb-6">
             {post.excerpt}
           </p>
+
           <div className="flex items-center gap-6">
             <div className="flex items-center text-[#38bdf8] text-sm font-semibold gap-2 group-hover:gap-3 transition-all duration-300">
               Read Full Article
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="transition-transform duration-300 group-hover:translate-x-1">
+
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="transition-transform duration-300 group-hover:translate-x-1"
+              >
                 <line x1="5" y1="12" x2="19" y2="12" />
                 <polyline points="12 5 19 12 12 19" />
               </svg>
             </div>
+
             <div className="flex items-center gap-1.5 text-[#64748b] text-xs">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
                 <circle cx="12" cy="12" r="10" />
                 <polyline points="12 6 12 12 16 14" />
               </svg>
+
               {post.readTime}
             </div>
           </div>
