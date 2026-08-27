@@ -61,7 +61,7 @@ export default function Navbar() {
                   draggable={false}
                 />
               </div>
-              <span className={`text-[6px] sm:text-[7px] md:text-[8px] font-medium tracking-wider uppercase ${scrolled ? 'text-black/60' : 'text-[#64748b]'}`}>
+              <span suppressHydrationWarning className={`text-[6px] sm:text-[7px] md:text-[8px] font-medium tracking-wider uppercase ${scrolled ? 'text-black/60' : 'text-[#64748b]'}`}>
                 LEADERS IN AESTHETIC INNOVATION 
               </span>
             </div>

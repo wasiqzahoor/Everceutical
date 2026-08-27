@@ -7,9 +7,9 @@ import { products } from "@/data/siteData"
 const featuredProducts = products.filter((p) => p.featured).slice(0, 4)
 
 const CARD_W_DESKTOP = 280
-const CARD_H_DESKTOP = 380
+const CARD_H_DESKTOP = 420
 const CARD_W_MOBILE = 200
-const CARD_H_MOBILE = 280
+const CARD_H_MOBILE = 320
 const RADIUS_DESKTOP = 400
 const RADIUS_MOBILE = 150
 const AUTO_DEG = 90

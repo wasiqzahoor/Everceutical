@@ -289,7 +289,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="font-semibold text-[#38bdf8] hover:text-[#0ea5e9] transition-all no-underline"
                 >
-                  NewTechSofts
+                   NewAiTechSofts
                 </a>
               </p>
             </div>

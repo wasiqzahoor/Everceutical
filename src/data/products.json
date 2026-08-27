@@ -215,7 +215,6 @@
     "usage": "Mix lyophilized exosome vial with peptide diluent immediately before use. Apply via derma roller, microneedling, or gentle massage. 2–4 sessions with approximately 2 months between each session.",
     "bgColor": "#ede8f5",
     "accentColor": "#7c5c9e",
-    "featured": true,
     "caseStudies": [
       {
         "name": "Mr. Ji-Hoon",
@@ -323,7 +322,6 @@
     "usage": "Mix both components before application. Use via microneedling, skin booster injection, or post-laser recovery. 2-4 sessions monthly. Suitable for face, neck, décolleté, and hands.",
     "bgColor": "#f0f0e8",
     "accentColor": "#9a8a5c",
-    "featured": true,
     "caseStudies": [
       {
         "name": "Ms. Yu-Jin",
@@ -428,7 +426,6 @@
     "usage": "Mix both components before application. Use via microneedling, skin booster injection, or post-laser recovery. 2-4 sessions monthly. Suitable for face, neck, décolleté, and hands.",
     "bgColor": "#f5ede8",
     "accentColor": "#b89a6c",
-    "featured": true,
     "caseStudies": [
       {
         "name": "Ms. Eun-Young",
@@ -505,7 +502,8 @@
     "importantNote": "Professional research and biotechnology applications only. Storage at -20°C. Manufactured by Nanoventra, Lehi, Utah, USA.",
     "usage": "Professional application. Cryopreserved storage at -20°C. Follow product handling instructions.",
     "bgColor": "#e8eef5",
-    "accentColor": "#5b7c91"
+    "accentColor": "#5b7c91",
+    "featured": true
   },
   {
     "id": "whartexa-60b",
@@ -628,7 +626,8 @@
         "beforeImage": "https://huggingface.co/spaces/bilal23bhai/EVERCEUTICALS/resolve/main/images/before-after/skin-redness.png",
         "afterImage": "https://huggingface.co/spaces/bilal23bhai/EVERCEUTICALS/resolve/main/images/before-after/skin-redness.png"
       }
-    ]
+    ],
+    "featured": true
   },
   {
     "id": "blue-vive",
@@ -685,6 +684,7 @@
     "usage": "Professional mesotherapy or microneedling. Reconstitute before use. 3-4 sessions spaced 2-4 weeks apart.",
     "bgColor": "#f5f5e8",
     "accentColor": "#c9b44a",
+    "featured": true,
     "caseStudies": []
   }
 ]
