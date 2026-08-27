@@ -9,11 +9,12 @@ import { blogPosts, type ContentBlock } from "@/data/scrapedData"
 
 function useInView(threshold = 0.15, rootMargin?: string) {
   const ref = useRef<HTMLDivElement>(null)
-  const [visible, setVisible] = useState(false)
+  const [visible, setVisible] = useState(true)
 
   useEffect(() => {
     const el = ref.current
     if (!el) return
+    setVisible(false)
     const isMobile = window.innerWidth < 768
     const obs = new IntersectionObserver(
       ([entry]) => {
@@ -43,6 +44,32 @@ function AnimatedBlock({ children, index = 0 }: { children: React.ReactNode; ind
       {children}
     </div>
   )
+}
+
+function renderTextWithLinks(text: string, links?: { text: string; url: string }[]): React.ReactNode {
+  if (!links || links.length === 0) return text
+  const parts: React.ReactNode[] = []
+  let remaining = text
+  let key = 0
+  for (const link of links) {
+    const idx = remaining.indexOf(link.text)
+    if (idx === -1) continue
+    if (idx > 0) parts.push(<span key={key++}>{remaining.slice(0, idx)}</span>)
+    parts.push(
+      <a
+        key={key++}
+        href={link.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-[#0ea5e9] underline decoration-[#0ea5e9]/30 hover:decoration-[#0ea5e9] transition-colors duration-200 font-medium"
+      >
+        {link.text}
+      </a>
+    )
+    remaining = remaining.slice(idx + link.text.length)
+  }
+  if (remaining) parts.push(<span key={key++}>{remaining}</span>)
+  return parts
 }
 
 function ContentRenderer({ blocks }: { blocks: ContentBlock[] }) {
@@ -76,7 +103,7 @@ function ContentRenderer({ blocks }: { blocks: ContentBlock[] }) {
             return (
               <AnimatedBlock key={i} index={idx}>
                 <p className="text-[#334155] text-[15px] md:text-[16px] leading-[1.9]">
-                  {block.text}
+                  {renderTextWithLinks(block.text || "", block.links)}
                 </p>
               </AnimatedBlock>
             )
@@ -162,6 +189,42 @@ function ContentRenderer({ blocks }: { blocks: ContentBlock[] }) {
                   <div className="flex-1 h-px bg-gradient-to-r from-transparent via-[#0ea5e9]/15 to-transparent" />
                   <div className="w-1.5 h-1.5 rounded-full bg-[#0ea5e9]/20" />
                   <div className="flex-1 h-px bg-gradient-to-r from-transparent via-[#0ea5e9]/15 to-transparent" />
+                </div>
+              </AnimatedBlock>
+            )
+          }
+          case "resources": {
+            const idx = blockIndex++
+            return (
+              <AnimatedBlock key={i} index={idx}>
+                <div className="my-10 rounded-2xl border border-[#e2e8f0] bg-[#f8fafc] p-6 sm:p-8">
+                  <h3 className="text-lg font-bold text-[#0f172a] mb-5 flex items-center gap-2">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0ea5e9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M4 19.5A2.5 2.5 0 016.5 17H20" />
+                      <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" />
+                    </svg>
+                    Scientific Resources
+                  </h3>
+                  <ul className="space-y-3">
+                    {block.links?.map((link, j) => (
+                      <li key={j} className="flex items-start gap-3 text-[14px] leading-[1.7]">
+                        <span className="mt-2 w-1.5 h-1.5 rounded-full bg-[#0ea5e9] shrink-0" />
+                        <a
+                          href={link.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[#334155] hover:text-[#0ea5e9] transition-colors duration-200"
+                        >
+                          {link.text}
+                          <svg className="inline-block ml-1 opacity-50" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                            <polyline points="15 3 21 3 21 9" />
+                            <line x1="10" y1="14" x2="21" y2="3" />
+                          </svg>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </AnimatedBlock>
             )

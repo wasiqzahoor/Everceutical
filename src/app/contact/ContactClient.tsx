@@ -425,7 +425,7 @@ export default function ContactClient() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 items-center">
+            <div className="max-w-2xl mx-auto">
               <div style={{
                 opacity: locationSection.visible ? 1 : 0,
                 transform: locationSection.visible ? "translateX(0)" : "translateX(-60px)",
@@ -459,26 +459,6 @@ export default function ContactClient() {
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-
-              <div style={{
-                opacity: locationSection.visible ? 1 : 0,
-                transform: locationSection.visible ? "translateX(0)" : "translateX(60px)",
-                transition: "opacity 1.3s cubic-bezier(0.22,1,0.36,1) 0.35s, transform 1.3s cubic-bezier(0.22,1,0.36,1) 0.35s",
-              }}>
-                <div className="relative rounded-2xl overflow-hidden h-[280px] sm:h-[400px] glass-surface">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.4!2d127.1!3d37.4!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDI0JzAwLjAiTiAxMjfCsDA2JzAwLjAiRQ!5e0!3m2!1sen!2skr!4v1"
-                    width="100%"
-                    height="100%"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title="EverCeutical Office Location"
-                  />
-                  <div className="absolute inset-0 pointer-events-none rounded-2xl border border-white/[0.08]" />
                 </div>
               </div>
             </div>

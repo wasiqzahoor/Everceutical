@@ -829,7 +829,7 @@ function ProductsPage() {
     : activeCategory === "hair"
       ? products.filter(p => p.category === "EXOGENESIS" && p.subtitle.toLowerCase().includes("scalp"))
       : activeCategory === "skin"
-        ? products.filter(p => p.subtitle.toLowerCase().includes("vital") || p.subtitle.toLowerCase().includes("rejuvenation"))
+        ? products.filter(p => p.subtitle.toLowerCase().includes("vital") || p.subtitle.toLowerCase().includes("rejuvenation") || p.category === "BLUEVIVE")
         : activeCategory === "available"
           ? products
           : products.filter((p) => p.category === activeCategory)
