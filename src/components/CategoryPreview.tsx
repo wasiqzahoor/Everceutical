@@ -40,7 +40,7 @@ const categories: CategoryInfo[] = [
     label: "EXOGENESIS",
     description: "Scalp & Vital exosome treatments with advanced peptide formulas",
     color: "#0ea5e9",
-    image: "/images/products/exogenisis.png",
+    image: "/images/products/exogenisis-image.png",
   },
   {
     name: "WHARTEXA",
@@ -54,7 +54,7 @@ const categories: CategoryInfo[] = [
     label: "HYALIQUE-X",
     description: "Dermal fillers, boosters & skin rejuvenation systems",
     color: "#0369a1",
-    image: "/images/products/hyalique-x-vial.png",
+    image: "/images/products/hyalique-x.png",
   },
 ]
 

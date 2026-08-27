@@ -23,9 +23,9 @@ export default function HeroSection() {
         <p
           className="text-white/80 text-[13px] sm:text-sm md:text-base max-w-xl mx-auto leading-relaxed mb-8 sm:mb-8 opacity-0 animate-[fadeUp_0.6s_0.4s_forwards]"
         >
-          EverCeutical is a Korea-based leader in exosome research and manufacturing,
-          delivering high-purity, clinically engineered exosome solutions for
-          regenerative medicine and aesthetic dermatology worldwide.
+          EverCeutical is a Korea-based aesthetics company offering 
+          advanced aesthetic and regenerative solutions, including exosomes,
+           dermal fillers, peptides, skin rejuvenation, and hair restoration products worldwide.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 opacity-0 animate-[fadeUp_0.6s_0.5s_forwards]">

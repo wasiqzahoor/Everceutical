@@ -231,11 +231,11 @@ export default function FeaturedProducts() {
                   </div>
                   {/* Product name on image */}
                   <div className="absolute bottom-2 left-2 right-2">
-                    <h4
+                    {/* <h4
                       className={`${isMobile ? 'text-[10px]' : 'text-[11px]'} font-bold text-[#0f172a] leading-snug line-clamp-2`}
                     >
                       {product.fullName}
-                    </h4>
+                    </h4> */}
                   </div>
                 </div>
 

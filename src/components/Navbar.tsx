@@ -62,7 +62,7 @@ export default function Navbar() {
                 />
               </div>
               <span className={`text-[6px] sm:text-[7px] md:text-[8px] font-medium tracking-wider uppercase ${scrolled ? 'text-black/60' : 'text-[#64748b]'}`}>
-                Leaders in Exosome Innovation
+                LEADERS IN AESTHETIC INNOVATION 
               </span>
             </div>
           </Link>

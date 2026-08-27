@@ -476,15 +476,15 @@ export const aboutUs = {
   },
   mission: {
     title: "Our Mission & Vision",
-    mission: "To make regenerative exosome therapy accessible to clinics and patients worldwide — delivering visible, lasting skin and hair health through scientifically validated, non-invasive solutions.",
-    vision: "To become the global leader in exosome-based aesthetic biotechnology, setting new standards for safety, efficacy, and innovation in regenerative medicine.",
+    mission: "To deliver innovative aesthetic solutions—including exosomes, dermal fillers, peptides, skin rejuvenation, and hair restoration—helping professionals achieve safe, effective, and natural-looking aesthetic outcomes worldwide.",
+    vision: "To become a globally trusted leader in aesthetic innovation, setting new standards in quality, safety, efficacy, and advanced regenerative solutions.",
   },
   about: {
     title: "About Everceutical",
     description:
-      "At EverCeutical, we are pioneering a smarter, science-driven future in aesthetics — powered by advanced exosome technology. Backed by Vesco Science Co., Ltd., our mission is simple: to deliver visible, lasting skin health results through cutting-edge regenerative biotechnology.",
+      "At EverCeutical, we are advancing the future of aesthetics through science-driven innovation and high-quality aesthetic solutions. Our portfolio spans exosomes, dermal fillers, peptides, skin rejuvenation, hair restoration, and other advanced aesthetic products.",
     description2:
-      "We specialize in non-invasive aesthetic solutions that promote deep skin rejuvenation, natural collagen stimulation, and accelerated cellular repair. Our clinically backed, dermatologist-tested formulations are designed specifically for professionals who demand exceptional performance, absolute safety, and uncompromised trust.",
+      "We are committed to supporting dermatologists and aesthetic professionals with innovative, reliable, and clinically focused solutions designed to enhance skin health, regeneration, and aesthetic outcomes.",
     highlights: [
       { value: "10+", label: "Countries Served" },
       { value: "50+", label: "Clinical Partners" },
@@ -745,7 +745,7 @@ export const contactInfo = {
     },
     {
       question: "Do you ship internationally?",
-      answer: "Yes. We ship globally through cold chain logistics that maintain product integrity from our Korean facility to clinics in 10+ countries. Contact us for shipping details to your region.",
+      answer: "Yes. We ship globally through cold chain logistics that maintain product integrity from our Korean facility to clinics in 9+ countries. Contact us for shipping details to your region.",
     },
     {
       question: "What is the difference between exosome therapy and PRP?",
